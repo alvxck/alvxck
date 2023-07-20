@@ -114,45 +114,6 @@ body {
 }
 
 
-/* Timeline */
-
-.timeline-start {
-  width: 50px;
-  height: 2px;
-  background-color: var(--color-2);
-  background: linear-gradient(to right, transparent, var(--color-2));
-  border-radius: 9999px;
-}
-
-.timeline-mid {
-  width: 75px;
-  height: 2px;
-  background-color: var(--color-2);
-  border-radius: 9999px;
-}
-
-.timeline-start + div img, 
-.timeline-mid + div img {
-  position: relative;
-  top: 22px;
-  width: 60px;
-  transition: transform ease-in-out .1s;
-  scale: 16;
-}
-
-.timeline-start + div img:hover, 
-.timeline-mid + div img:hover {
-  cursor: pointer;
-  transform: scale(1.15);
-}
-
-.timeline-end {
-  width: 20px;
-  height: 2px;
-  background-color: var(--color-2);
-  border-radius: 9999px;
-}
-
 
 /* #about, #skills, #work {
   animation: fadeIn ease 2s;
@@ -161,4 +122,11 @@ body {
 @keyframes fadeIn {
   0% { opacity:0; }
   100% { opacity:1; }
+}
+
+#work img {
+  align-self: center;
+  border-radius: 25%;
+  width: 27px;
+  height: 27px;
 }

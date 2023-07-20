@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <div className="bg-topography"/>
-      <div className="w-100 flex flex-col items-center space-y-5">
+      <div className="flex flex-col items-center space-y-5">
         <Title />
         <About />
         <Skills />
