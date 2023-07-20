@@ -29,10 +29,15 @@ body {
 }
 
 .bg-topography {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
   background-image: url('../public/topography.png');
   -o-object-fit: cover;
      object-fit: cover;
   background-attachment: fixed;
+  animation: fadeIn ease 5s;
+  z-index: -1;
 }
 
 /* Title and Links */
@@ -129,14 +134,16 @@ body {
 .timeline-start + div img, 
 .timeline-mid + div img {
   position: relative;
-  top: 1.25rem;
-  transform: scale(15);
+  top: 22px;
+  width: 60px;
+  transition: transform ease-in-out .1s;
+  scale: 16;
 }
 
 .timeline-start + div img:hover, 
 .timeline-mid + div img:hover {
-  scale: 1.15;
   cursor: pointer;
+  transform: scale(1.15);
 }
 
 .timeline-end {
@@ -144,4 +151,14 @@ body {
   height: 2px;
   background-color: var(--color-2);
   border-radius: 9999px;
+}
+
+
+/* #about, #skills, #work {
+  animation: fadeIn ease 2s;
+} */
+
+@keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
 }

@@ -2,7 +2,7 @@
 
 export default function About() {
   return (
-    <div className="lg:w-1/2 sm:w-full">
+    <div id="about" className="w-full">
       <h1 className="text-2xl font-serif tracking-wider">Who am I?</h1>
       <p className="text-sm px-6">I&apos;m a Software Engineer and 3rd year CS student from from Toronto, Canada.</p>
       <p className="text-xs font-bold px-6">Interests</p>

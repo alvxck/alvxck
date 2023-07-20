@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Skills() {
 
   return (
-    <div className="lg:w-1/2 sm:w-full">
+    <div id='skills' className="w-full">
       <h1 className="text-2xl font-serif tracking-wider">What do I know?</h1>
       <p className="text-sm px-6">I specialize in XXX and Full Stack Web Development.</p>
       <p className="text-xs font-bold px-6">Programming Languages</p>
