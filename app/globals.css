@@ -40,93 +40,48 @@ body {
   z-index: -1;
 }
 
-/* Title and Links */
-
-#ansys {
-  display: inline-block;
-  position: relative;
-  color:  #FFB71B;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
+@media screen and (max-width: 740px) {
+  #container {
+    max-width: calc(100vw - 40px);
+  }
 }
 
-#ansys::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color:  #FFB71B;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+#container {
+  width: 475px;
 }
-
-#ansys:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-#geotab {
-  display: inline-block;
-  position: relative;
-  color: #0078D3;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#geotab::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0078D3;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-#geotab:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/* Media Links */
-
-.medialink {
-  width: 1.5rem;
-  height: 1.5rem;
-  transition: transform ease-in-out .1s;
-}
-
-.medialink:hover {
-  cursor: pointer;
-  transform: scale(1.15);
-}
-
-.medialink svg {
-  fill: var(--color-2);
-}
-
-
-
-/* #about, #skills, #work {
-  animation: fadeIn ease 2s;
-} */
 
 @keyframes fadeIn {
   0% { opacity:0; }
   100% { opacity:1; }
 }
 
-#work img {
-  align-self: center;
-  border-radius: 25%;
-  width: 27px;
-  height: 27px;
+#current-job {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+
+  transform: rotate(0deg);
+  transform-origin: top right;
+}
+
+#current-job::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#current-job:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#links a {
+  transition: .3s;
 }

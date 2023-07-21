@@ -1,17 +1,27 @@
-import Title from "@/components/Title" 
-import About from "@/components/About"
-import Skills from "@/components/Skills"
-import Work from "@/components/Work"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <main className="min-h-screen flex flex-col items-center justify-center">
       <div className="bg-topography"/>
-      <div className="flex flex-col items-center space-y-5">
-        <Title />
-        <About />
-        <Skills />
-        <Work />
+      <div id="container" className="flex flex-col items-center space-y-4">
+        <div id="title" className="w-full flex flex-row space-x-7">
+          <div className="flex flex-col grow justify-center">
+            <h1 className="text-3xl md:text-4xl font-serif tracking-wider">Alexander Carvalho</h1>
+            <p className="text-md text-neutral-400">Hi – my name is <span className="font-medium text-white">Alex</span>.</p>
+          </div>
+        </div>
+        <div id="about" className="w-full">
+          <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Software Engineer</span> from from Toronto, Canada interested in <span className="font-medium text-white">Finance-Technology</span> and <span className="font-medium text-white">Mechatronics</span>.</p>
+          <p className="text-md text-neutral-400 mt-4">Currently, I&apos;m working on Computational Fluid Dynamics R&D at <a href="https://www.ansys.com/" target="blank" id="current-job" className="font-medium text-white">Ansys</a> and web development at <a href="https://www.geotab.com/" target="blank" id="current-job" className="font-medium text-white">Geotab</a>.</p>
+        </div>
+        <div id='links' className="w-full">
+          <p className="text-md font-medium">Links</p>
+          <div className="flex flex-row flex-wrap space-x-3 mt-1"> 
+            <a href="https://www.linkedin.com/in/alvx/" target="blank" className='text-sm text-neutral-400 hover:text-white'>LinkedIn</a>
+            <a href="https://github.com/alvxck" target="blank" className='text-sm text-neutral-400 hover:text-white'>GitHub</a>
+            <a href="mailto:alexander_sck@live.ca" target="blank" className='text-sm text-neutral-400 hover:text-white'>Email</a>
+          </div>
+        </div>
       </div>
     </main>
   )
