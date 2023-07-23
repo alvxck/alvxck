@@ -55,7 +55,7 @@ body {
   100% { opacity:1; }
 }
 
-#current-job {
+#job {
   display: inline-block;
   position: relative;
   text-decoration: none;
@@ -64,7 +64,7 @@ body {
   transform-origin: top right;
 }
 
-#current-job::after {
+#job::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -77,11 +77,23 @@ body {
   transition: transform 0.25s ease-out;
 }
 
-#current-job:hover::after {
+#job:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
 #links a {
   transition: .3s;
+}
+
+.blinking-cursor::after {
+  content: "|";
+  color: #FFF;
+  animation: blink 1.2s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
