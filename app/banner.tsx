@@ -15,7 +15,7 @@ const banners: Banner[] = [
     { id: 4, prompt: "who's gonna carry the boats!", color: "text-rose-500" },
     { id: 5, prompt: "`till 3005.", color: "text-fuchsia-500" },
     { id: 6, prompt: "building, breaking, and learning.", color: "text-cyan-500" },
-    { id: 7, prompt: "implementing cryptographic hash algorithms.", color: "text-amber-500" },
+    { id: 7, prompt: "implementing hash algorithms.", color: "text-amber-500" },
     { id: 8, prompt: "sample8", color: "text-purple-500" },
     { id: 9, prompt: "sample9", color: "text-lime-500" },
     { id: 10, prompt: "sample10", color: "text-teal-500" },

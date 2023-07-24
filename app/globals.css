@@ -3,19 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --color-2: #FFF;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 body {
@@ -59,9 +49,6 @@ body {
   display: inline-block;
   position: relative;
   text-decoration: none;
-
-  transform: rotate(0deg);
-  transform-origin: top right;
 }
 
 #job::after {
@@ -73,7 +60,6 @@ body {
   bottom: 0;
   left: 0;
   background-color: #FFF;
-  transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
 
