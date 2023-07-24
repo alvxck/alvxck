@@ -85,15 +85,3 @@ body {
 #links a {
   transition: .3s;
 }
-
-.blinking-cursor::after {
-  content: "|";
-  color: #FFF;
-  animation: blink 1.2s step-end infinite;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
