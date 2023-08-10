@@ -9,11 +9,12 @@ interface Banner {
 }
 
 const banners: Banner[] = [
-    { id: 1, prompt: "Carvalho [kɐɾ'vaʎu] — 'Oak' in Portugese", color: "text-emerald-500" },
-    { id: 2, prompt: "tuna, no crust.", color: "text-blue-500" },
-    { id: 3, prompt: "TL;DR: Alex - Software Engineer - Toronto", color: "text-yellow-500" },
-    { id: 4, prompt: "who's gonna carry the boats!", color: "text-rose-500" },
-    { id: 5, prompt: "till 3005", color: "text-fuchsia-500" },
+    { id: 0, prompt: "Carvalho [kɐɾ'vaʎu] — 'Oak' in Portugese", color: "text-emerald-500" },
+    { id: 1, prompt: "tuna, no crust.", color: "text-blue-500" },
+    { id: 2, prompt: "TL;DR: Alex - Software Engineer - Toronto", color: "text-yellow-500" },
+    { id: 3, prompt: "who's gonna carry the boats!", color: "text-rose-500" },
+    { id: 4, prompt: "till 3005", color: "text-fuchsia-500" },
+    { id: 5, prompt: "modus operandi", color: "text-purple-300" },
     { id: 6, prompt: "debugging code", color: "text-cyan-500" },
     { id: 7, prompt: "implementing hash algorithms", color: "text-amber-500" },
     { id: 8, prompt: "initializing CI workflows", color: "text-purple-500" },
@@ -37,10 +38,11 @@ enum BannerMS {
 }
 
 const BannerSetup = (banners: Banner[]) => {
+    let initialBanner: Banner = banners[5]
     const [banner, setBanner] = useState<string>("")
-    const [selectedBanner, setSelectedBanner] = useState<string>(banners[0].prompt)
-    const [lastBanner, setLastBanner] = useState<string>(banners[0].prompt)
-    const [color, setColor] = useState<string>(banners[0].color)
+    const [selectedBanner, setSelectedBanner] = useState<string>(initialBanner.prompt)
+    const [lastBanner, setLastBanner] = useState<string>(initialBanner.prompt)
+    const [color, setColor] = useState<string>(initialBanner.color)
 
     useEffect(() => {
         const timeout = setTimeout(() => {
