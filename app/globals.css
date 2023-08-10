@@ -72,15 +72,3 @@ body {
 #links a {
   transition: .3s;
 }
-
-.wait {
-
-}
-
-.loading-in {
-  
-}
-
-.loaded {
-  opacity: 1;
-}

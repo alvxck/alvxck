@@ -38,7 +38,7 @@ enum BannerMS {
 }
 
 const BannerSetup = (banners: Banner[]) => {
-    let initialBanner: Banner = banners[5]
+    let initialBanner: Banner = banners[0]
     const [banner, setBanner] = useState<string>("")
     const [selectedBanner, setSelectedBanner] = useState<string>(initialBanner.prompt)
     const [lastBanner, setLastBanner] = useState<string>(initialBanner.prompt)
