@@ -14,8 +14,8 @@ export default function Home() {
         </div>
         <div id="about" className="w-full space-y-4">
           <p className="text-md text-neutral-400">Hi – my name is <span className="font-medium text-white">Alex</span>.</p>
-          <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Software Engineer</span> from from Toronto interested in <span className="font-medium text-white">Finance-Technology</span> and <span className="font-medium text-white">Mechatronics</span>.</p>
-          <p className="text-md text-neutral-400">Currently, I&apos;m working on Computational Fluid Dynamics R&D at <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a> and web development at <a href="https://www.geotab.com/" target="blank" id="job" className="font-medium text-white">Geotab</a>.</p>
+          <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Software Engineer</span> from from Toronto interested in <span className="font-medium text-white">finance-technology</span> and <span className="font-medium text-white">sports cars</span>.</p>
+          <p className="text-md text-neutral-400">Currently, I&apos;m working on <span className="font-medium text-white">backend development</span> for telematics integration at <a href="https://www.geotab.com/" target="blank" id="job" className="font-medium text-white">Geotab</a>. Ex-SWE at <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a>.</p>
         </div>
         <div id='links' className="w-full">
           <p className="text-md font-medium">Links</p>

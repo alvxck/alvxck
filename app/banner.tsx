@@ -33,7 +33,7 @@ const banners: Banner[] = [
 ]
 
 enum BannerMS {
-    typing = 40,
+    typing = 50,
     pause = 5000,
 }
 
