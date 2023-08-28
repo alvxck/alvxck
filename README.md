@@ -1,5 +1,5 @@
 <p align='center'>
-    <h1>Hi, I'm Alex</h1>
+    <h1>Hi – my name is Alex.</h1>
     <a href='https://alvx.ca' target='blank'><img src='./public/alvx-wallpaper.jpg'/></a>
     <p align='center'>
     [ <a href='https://alvx.ca' target='blank'>Website ↗︎</a> ]
