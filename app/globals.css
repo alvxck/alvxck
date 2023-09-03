@@ -18,15 +18,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.bg-topography {
+#bg-topo {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: url('../public/topography.png');
+  opacity: 0.075;
   -o-object-fit: cover;
      object-fit: cover;
   background-attachment: fixed;
-  animation: fadeIn ease 5s;
   z-index: -1;
 }
 
@@ -38,11 +37,6 @@ body {
 
 #container {
   width: 475px;
-}
-
-@keyframes fadeIn {
-  0% { opacity:0; }
-  100% { opacity:1; }
 }
 
 #job {

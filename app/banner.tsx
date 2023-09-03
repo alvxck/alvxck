@@ -11,7 +11,7 @@ interface Banner {
 const banners: Banner[] = [
     { id: 0, prompt: "Carvalho [kɐɾ'vaʎu] — 'Oak' in Portugese", color: "text-emerald-500" },
     { id: 1, prompt: "tuna, no crust.", color: "text-blue-500" },
-    { id: 2, prompt: "TL;DR: Alex - Software Engineer - Toronto", color: "text-yellow-500" },
+    { id: 2, prompt: "TLDR: Alex - Software Engineer - Toronto", color: "text-yellow-500" },
     { id: 3, prompt: "who's gonna carry the boats!", color: "text-rose-500" },
     { id: 4, prompt: "till 3005", color: "text-fuchsia-500" },
     { id: 5, prompt: "modus operandi", color: "text-purple-300" },
