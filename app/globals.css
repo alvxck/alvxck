@@ -18,6 +18,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+body main {
+  animation: fadeIn ease 2s;
+}
+
 .bg-topography {
   position: absolute;
   width: 100vw;
