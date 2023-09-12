@@ -49,6 +49,17 @@ body main {
   100% { opacity:1; }
 }
 
+#folder-select {
+  width: fit-content;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+#folder-select svg {
+  fill: #FFF;
+  width: .85rem;
+}
+
 #job {
   display: inline-block;
   position: relative;

@@ -1,4 +1,5 @@
-import Banner from "./banner"
+import Banner from "./components/banner"
+import FolderSelect from "./components/folderSelect"
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div id="container" className="flex flex-col items-center space-y-4">
         <div id="title" className="w-full flex flex-row space-x-7">
           <div className="flex flex-col grow justify-center">
+            <FolderSelect />
             <h1 className="text-3xl md:text-4xl font-semibold">Alexander Carvalho</h1>
             <Banner />
           </div>
