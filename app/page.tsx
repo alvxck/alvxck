@@ -1,4 +1,5 @@
 import Banner from "./banner"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Image id="red-button" src="/red-button.png" alt="red-button" width={50} height={50}/>
     </main>
   )
 }
