@@ -87,3 +87,15 @@ body main {
 #links a {
   transition: .3s;
 }
+
+#red-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;  
+  cursor: pointer;
+}
+
+#ccd {
+  display: none;
+  height: 100vh;
+}
