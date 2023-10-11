@@ -10,7 +10,7 @@ interface Banner {
 
 const banners: Banner[] = [
     { id: 0, prompt: "TLDR: Alex - Software Engineer - Toronto", color: "text-emerald-500" },
-    { id: 1, prompt: "Portugese — Trinidad & Tobago", color: "text-rose-500" },
+    { id: 1, prompt: "Portugal — Trinidad & Tobago", color: "text-rose-500" },
     { id: 2, prompt: "git checkout -b fix/bugs", color: "text-blue-300" },
     { id: 3, prompt: "building distributed scalable systems", color: "text-teal-300" },
     { id: 4, prompt: "till 3005", color: "text-fuchsia-500" },
