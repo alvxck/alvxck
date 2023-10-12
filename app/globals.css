@@ -94,6 +94,13 @@ body main {
   transition: .3s;
 }
 
+@media screen and (max-width: 740px) {
+  #red-button {
+    display: none;
+  }
+}
+
+
 #red-button {
   position: absolute;
   bottom: 20px;
