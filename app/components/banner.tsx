@@ -9,15 +9,15 @@ interface Banner {
 }
 
 const banners: Banner[] = [
-    { id: 0, prompt: "Carvalho [kɐɾ'vaʎu] — 'Oak' in Portugese", color: "text-emerald-500" },
-    { id: 1, prompt: "TLDR: Alex - Software Engineer - Toronto", color: "text-yellow-500" },
+    { id: 0, prompt: "TLDR: Alex - Software Engineer - Toronto", color: "text-emerald-500" },
+    { id: 1, prompt: "Portugese && Trini", color: "text-rose-500" },
     { id: 2, prompt: "git checkout -b fix/bugs", color: "text-blue-300" },
     { id: 3, prompt: "building distributed scalable systems", color: "text-teal-300" },
     { id: 4, prompt: "till 3005", color: "text-fuchsia-500" },
     { id: 5, prompt: "implementing hash algorithms", color: "text-amber-500" },
     { id: 6, prompt: "initializing CI workflows", color: "text-purple-500" },
     { id: 7, prompt: "venv/Scripts/activate", color: "text-sky-500" },
-    { id: 8, prompt: "who's gonna carry the boats!", color: "text-rose-500" },
+    { id: 8, prompt: "who's gonna carry the boats!", color: "text-yellow-500" },
     { id: 9, prompt: "enabling mutexes", color: "text-lime-500" },
     { id: 10, prompt: "streamlining cloud integration", color: "text-teal-500" },
     { id: 11, prompt: "running tests...", color: "text-indigo-500" },

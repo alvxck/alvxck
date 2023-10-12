@@ -18,10 +18,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-body main {
-  animation: fadeIn ease 2s;
-}
-
 .bg-topography {
   position: absolute;
   width: 100vw;
@@ -30,7 +26,6 @@ body main {
   -o-object-fit: cover;
      object-fit: cover;
   background-attachment: fixed;
-  animation: fadeIn ease 5s;
   z-index: -1;
 }
 
@@ -99,7 +94,6 @@ body main {
     display: none;
   }
 }
-
 
 #red-button {
   position: absolute;
