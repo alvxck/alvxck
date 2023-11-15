@@ -31,17 +31,34 @@ body {
 
 @media screen and (max-width: 740px) {
   #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: calc(100vw - 40px);
   }
 }
 
 #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 475px;
 }
 
 @keyframes fadeIn {
   0% { opacity:0; }
   100% { opacity:1; }
+}
+
+#folder-select {
+  width: fit-content;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+#folder-select svg {
+  fill: #FFF;
+  width: .85rem;
 }
 
 #job {
@@ -72,10 +89,20 @@ body {
   transition: .3s;
 }
 
+@media screen and (max-width: 740px) {
+  #red-button {
+    display: none;
+  }
+}
+
 #red-button {
   position: absolute;
   bottom: 20px;
   right: 20px;  
   cursor: pointer;
-  animation: fadeIn 3s ease-in;
+}
+
+#ccd {
+  display: none;
+  height: 100vh;
 }
