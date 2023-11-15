@@ -5,7 +5,7 @@
     [ <a href='https://alvx.ca' target='blank'>Website ↗︎</a> ]
     [ <a href='https://www.linkedin.com/in/alvx/' target='blank'>LinkedIn ↗︎</a> ]
     </p>
-    <p align='center'>I'm a student and software developer from Toronto, Canada interested in finance-technology and building sports cars.
+    <p align='center'>I'm a Student and Software Developer from Toronto interested in finance-technology and building sports cars.
     </p>
     <p align='center'>Welcome to my GitHub.
     </p>
