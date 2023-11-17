@@ -65,11 +65,11 @@ body {
 } 
 
 #about {
-  animation: fadeIn1 7.5s ease-in-out;
+  animation: fadeIn1 6s ease-in-out;
 }
 
 #links {
-  animation: fadeIn2 7.5s ease-in-out;
+  animation: fadeIn2 6s ease-in-out;
 }
 
 #job {

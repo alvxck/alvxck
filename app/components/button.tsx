@@ -30,8 +30,7 @@ export default function Button() {
     }
 
     useEffect(() => {
-        ccdVideoRef.current = document.getElementById("ccd") as HTMLVideoElement;
-        
+        ccdVideoRef.current = document.getElementById("ccd") as HTMLVideoElement; 
     });
 
     return (
