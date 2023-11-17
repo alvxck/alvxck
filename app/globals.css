@@ -22,11 +22,11 @@ body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: url('../public/topography.png');
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-image: url('../public/alvx-wallpaper.jpg');
+  background-size: cover;
+  filter: brightness(0.4) blur(1.5px);
   background-attachment: fixed;
-  z-index: -1;
+  z-index: 1;
 }
 
 @media screen and (max-width: 740px) {
@@ -42,23 +42,34 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 475px;
+  width: 420px;
+  z-index: 2;
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn1 {
   0% { opacity:0; }
+  20% { opacity:0; }
+  40% { opacity:0; }
+  60% { opacity:1; }
+  80% { opacity:1; }
   100% { opacity:1; }
+} 
+
+@keyframes fadeIn2 {
+  0% { opacity:0; }
+  20% { opacity:0; }
+  40% { opacity:0; }
+  60% { opacity:0; }
+  80% { opacity:1; }
+  100% { opacity:1; }
+} 
+
+#about {
+  animation: fadeIn1 7.5s ease-in-out;
 }
 
-#folder-select {
-  width: fit-content;
-  border-width: 1px;
-  cursor: pointer;
-}
-
-#folder-select svg {
-  fill: #FFF;
-  width: .85rem;
+#links {
+  animation: fadeIn2 7.5s ease-in-out;
 }
 
 #job {
@@ -97,12 +108,15 @@ body {
 
 #red-button {
   position: absolute;
-  bottom: 20px;
-  right: 20px;  
+  bottom: 15px;
+  left: 15px;  
   cursor: pointer;
+  z-index: 2;
 }
 
 #ccd {
   display: none;
+  position: absolute;
   height: 100vh;
+  z-index: 3;
 }

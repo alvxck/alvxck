@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 export default function Button() {
     const [isPlaying, setIsPlaying] = useState<boolean>(false);
     const ccdVideoRef = useRef<HTMLVideoElement | null>(null);
-    const mainContainerRef = useRef<HTMLDivElement | null>(null);
 
     const meme = () => {
         if (isPlaying) {
@@ -14,8 +13,7 @@ export default function Button() {
             return;
         }
 
-        if (ccdVideoRef.current && mainContainerRef.current) {
-            mainContainerRef.current.style.display = "none";
+        if (ccdVideoRef.current) {
             ccdVideoRef.current.style.display = "block";
             ccdVideoRef.current.currentTime = 0;
             ccdVideoRef.current.play();
@@ -26,7 +24,6 @@ export default function Button() {
   
     const exitFullscreen = (e: Event) => {
         ccdVideoRef.current!.style.display = "none";
-        mainContainerRef.current!.style.display = "flex";
         ccdVideoRef.current!.pause();
         ccdVideoRef.current!.removeEventListener("ended", exitFullscreen, false);
         setIsPlaying(false);
@@ -34,7 +31,7 @@ export default function Button() {
 
     useEffect(() => {
         ccdVideoRef.current = document.getElementById("ccd") as HTMLVideoElement;
-        mainContainerRef.current = document.getElementById("container") as HTMLDivElement;
+        
     });
 
     return (
@@ -42,10 +39,9 @@ export default function Button() {
             id="red-button"
             src="/red-button.png" 
             alt="red-button" 
-            width={50} 
-            height={50}
+            width={55} 
+            height={55}
             onClick={meme}
         />
-
     )
 }
