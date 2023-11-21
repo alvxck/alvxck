@@ -23,7 +23,7 @@ export default function Home() {
           <div className="flex flex-row flex-wrap space-x-3 mt-1"> 
             <a href="https://www.linkedin.com/in/alvx/" target="blank" className='text-sm text-neutral-400 hover:text-sky-500'>LinkedIn</a>
             <a href="https://github.com/alvxck" target="blank" className='text-sm text-neutral-400 hover:text-sky-500'>GitHub</a>
-            <a href="mailto:alexander_sck@live.ca" target="blank" className='text-sm text-neutral-400 hover:text-sky-500'>Email</a>
+            <a href="mailto:alexcarvalho@alvx.ca " target="blank" className='text-sm text-neutral-400 hover:text-sky-500'>Email</a>
           </div>
         </div>
       </div>
