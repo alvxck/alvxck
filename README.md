@@ -4,6 +4,7 @@
     <p align='center'>
     [ <a href='https://alvx.ca' target='blank'>Website ↗︎</a> ]
     [ <a href='https://www.linkedin.com/in/alvx/' target='blank'>LinkedIn ↗︎</a> ]
+    [ <a href='https://github.com/alvxck/resume/blob/main/alex-carvalho-resume.pdf' target='blank'>Resume ↗︎</a>]
     </p>
     <p align='center'>I'm a Student and Software Developer from Toronto interested in finance technology and building sports cars.
     </p>
