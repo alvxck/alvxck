@@ -16,7 +16,7 @@ export default function Home() {
         <div id="about" className="w-full space-y-4">
           <p className="text-md text-neutral-400">Hi – my name is <span className="font-medium text-white">Alex</span>.</p>
           <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Software Developer</span> from from Toronto interested in <span className="font-medium text-white">finance technology</span> and building <span className="font-medium text-white">sports cars</span>.</p>
-          <p className="text-md text-neutral-400">Currently, I&apos;m working on <span className="font-medium text-white">full stack</span> web development at <a href="https://www.geotab.com/" target="blank" id="job" className="font-medium text-white">Geotab</a>. Previously at <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a>.</p>
+          <p className="text-md text-neutral-400">Currently, I&apos;m contributing to open-source <span className="font-medium text-white">finance</span> and <span className="font-medium text-white">LLM</span> codebases. Previously at <a href="https://www.geotab.com/" target="blank" id="job" className="font-medium text-white">Geotab</a> and <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a>.</p>
         </div>
         <div id='links' className="w-full">
           <p className="text-md font-medium">Links</p>
