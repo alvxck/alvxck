@@ -15,8 +15,8 @@ export default function Home() {
         </div>
         <div id="about" className="w-full space-y-4">
           <p className="text-md text-neutral-400">Hi – my name is <span className="font-medium text-white">Alex</span>.</p>
-          <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Software Engineer</span> from Toronto interested in <span className="font-medium text-white">finance technology</span> and building <span className="font-medium text-white">sports cars</span>.</p>
-          <p className="text-md text-neutral-400">Incoming <span className="font-medium text-white">Data Engineering</span> Intern at the <a href="https://www.rbcroyalbank.com/personal.html" target="blank" id="job" className="font-medium text-white">Royal Bank of Canada</a>. Previously at <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a> and <a href="https://www.geotab.com/" target="blank" id="job" className="font-medium text-white">Geotab</a>.</p>
+          <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Data Engineer</span> from <span className="font-medium text-white">Toronto</span> passionate about <span className="font-medium text-white">scalable systems</span> and <span className="font-medium text-white">data orchestration</span>.</p>
+          <p className="text-md text-neutral-400">Currently, I work as a <span className="font-medium text-white">Data Engineer</span> at the <a href="https://www.rbcroyalbank.com/personal.html" target="blank" id="job" className="font-medium text-white">Royal Bank of Canada</a>. Previously at <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a> and <a href="https://www.geotab.com/" target="blank" id="job" className="font-medium text-white">Geotab</a>.</p>
         </div>
         <div id='links' className="w-full">
           <p className="text-md font-medium">Links</p>
