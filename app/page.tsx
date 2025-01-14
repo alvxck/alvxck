@@ -15,8 +15,10 @@ export default function Home() {
         </div>
         <div id="about" className="w-full space-y-4">
           <p className="text-md text-neutral-400">Hi – my name is <span className="font-medium text-white">Alex</span>.</p>
-          <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Data Engineer</span> from <span className="font-medium text-white">Toronto</span> passionate about <span className="font-medium text-white">scalable systems</span> and <span className="font-medium text-white">data orchestration</span>.</p>
-          <p className="text-md text-neutral-400">Currently, I work as a <span className="font-medium text-white">Data Engineer</span> at the <a href="https://www.rbcroyalbank.com/personal.html" target="blank" id="job" className="font-medium text-white">Royal Bank of Canada</a>. Previously at <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a> and <a href="https://www.geotab.com/" target="blank" id="job" className="font-medium text-white">Geotab</a>.</p>
+          <p className="text-md text-neutral-400">I&apos;m a <span className="font-medium text-white">Data Engineer</span> from <span className="font-medium text-white">Toronto</span>.</p>
+          <p className="text-md text-neutral-400">Interested in  <span className="font-medium text-white">fintech</span> and <span className="font-medium text-white">old benzes</span>.</p>
+          <p className="text-md text-neutral-400">Supporting <span className="font-medium text-white">Managed Markets</span> at <a href="https://www.shopify.com/ca" target="blank" id="job" className="font-medium text-white">Shopify</a>.</p>
+          <p className="text-md text-neutral-400">Previously at <a href="https://www.rbcroyalbank.com/personal.html" target="blank" id="job" className="font-medium text-white">RBC</a> and <a href="https://www.ansys.com/" target="blank" id="job" className="font-medium text-white">Ansys</a>.</p>
         </div>
         <div id='links' className="w-full">
           <p className="text-md font-medium">Links</p>
